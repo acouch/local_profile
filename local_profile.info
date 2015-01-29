@@ -1,0 +1,12 @@
+name = Local Profile
+core = 7.x
+exclusive = TRUE
+version = 7.x-1.x
+
+; Core
+dependencies[] = menu
+dependencies[] = path
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = devel

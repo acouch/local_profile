@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * Installation tasks for Local Profile.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function local_profile_install() {
+  variable_set('admin_theme', 'bartik');
+}
